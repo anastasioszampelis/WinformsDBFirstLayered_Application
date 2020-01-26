@@ -5,7 +5,7 @@
 ![alt text](https://anastasioszampelis.github.io/assets/png/winforms_layered_app.png "Winforms 3 tier app")
 
 This is just a simple C# 3-layer Windows Forms application, which uses the 
-following libraries:
+following:
 
   - [Entity Framework 6 (DB First)](https://docs.microsoft.com/en-us/ef/ef6/modeling/designer/workflows/database-first)
   - [SimpleInjector](https://simpleinjector.org/)
