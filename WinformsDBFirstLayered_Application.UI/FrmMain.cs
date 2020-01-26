@@ -35,11 +35,11 @@ namespace WinformsDBFirstLayered_Application.UI
             dgvEmployees.AlternatingRowsDefaultCellStyle.BackColor = Color.LightGray;
             myToolstriptextboxwithcue = new ToolStripTextBoxWithCue()
             {
-                CueBanner="Επώνυμο"
+                CueBanner="Surname"
             };
             tsbFilterEmployees = new ToolStripButton()
             {
-                Text = "Φίλτρο"
+                Text = "Filter"
             };
             //tsbFilterEmployees.Enabled = false;
             myToolstriptextboxwithcue.KeyUp += new System.Windows.Forms.KeyEventHandler(MyToolStripTextBoxWithCue_KeyUp);
@@ -106,7 +106,7 @@ namespace WinformsDBFirstLayered_Application.UI
 
         private void dgvEmployees_SelectionChanged(object sender, EventArgs e)
         {
-            if(dgvEmployees.SelectedRows != null && dgvEmployees.SelectedRows.Count == 1)
+            if(dgvEmployees.SelectedRows != null && dgvEmployees.SelectedRows.Count == 1 && dgvEmployees.SelectedRows[0].DataBoundItem != null)
             {
                 tsbDeleteEmployee.Enabled = true;
                 selectedEmployee = (EmployeeDto)dgvEmployees.CurrentRow.DataBoundItem;
@@ -121,7 +121,7 @@ namespace WinformsDBFirstLayered_Application.UI
 
         private void tsbDeleteEmployee_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Είστε σίγουροι;", "Employees App", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Are you sure?", "Employees App", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.Yes)
             {
                 var response = mainFormBLL.DeleteEmployee(selectedEmployee);

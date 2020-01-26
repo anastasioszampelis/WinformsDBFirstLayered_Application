@@ -9,13 +9,13 @@ namespace WinformsDBFirstLayered_Application.Dto
 {
     public class EmployeeDto
     {
-        [DisplayName("Κωδικός")]
+        [DisplayName("Id")]
         public int Id { get; set; }
-        [DisplayName("Όνομα")]
+        [DisplayName("Name")]
         public string Name { get; set; }
-        [DisplayName("Επώνυμο")]
+        [DisplayName("Surname")]
         public string Surname { get; set; }
-        [DisplayName("Τμήμα")]
+        [DisplayName("Department")]
         public string DepartmentName { get; set; }
     }
 }

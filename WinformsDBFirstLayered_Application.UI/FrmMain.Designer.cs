@@ -64,8 +64,8 @@
             this.tsbAddEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsbAddEmployee.Image")));
             this.tsbAddEmployee.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbAddEmployee.Name = "tsbAddEmployee";
-            this.tsbAddEmployee.Size = new System.Drawing.Size(77, 22);
-            this.tsbAddEmployee.Text = "Προσθήκη...";
+            this.tsbAddEmployee.Size = new System.Drawing.Size(42, 22);
+            this.tsbAddEmployee.Text = "Add...";
             this.tsbAddEmployee.Click += new System.EventHandler(this.tsbAddEmployee_Click);
             // 
             // tsbDeleteEmployee
@@ -74,8 +74,8 @@
             this.tsbDeleteEmployee.Image = ((System.Drawing.Image)(resources.GetObject("tsbDeleteEmployee.Image")));
             this.tsbDeleteEmployee.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbDeleteEmployee.Name = "tsbDeleteEmployee";
-            this.tsbDeleteEmployee.Size = new System.Drawing.Size(65, 22);
-            this.tsbDeleteEmployee.Text = "Διαγραφή";
+            this.tsbDeleteEmployee.Size = new System.Drawing.Size(44, 22);
+            this.tsbDeleteEmployee.Text = "Delete";
             this.tsbDeleteEmployee.Click += new System.EventHandler(this.tsbDeleteEmployee_Click);
             // 
             // FrmMain

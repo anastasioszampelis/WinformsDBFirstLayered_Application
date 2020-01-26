@@ -9,9 +9,9 @@ namespace WinformsDBFirstLayered_Application.Dto
 {
     public class DepartmentDto
     {
-        [DisplayName("Κωδικός")]
+        [DisplayName("Id")]
         public int Id { get; set; }
-        [DisplayName("Περιγραφή")]
+        [DisplayName("Description")]
         public string Name { get; set; }
     }
 }

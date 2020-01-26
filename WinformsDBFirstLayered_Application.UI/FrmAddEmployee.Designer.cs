@@ -44,9 +44,9 @@
             this.lblName.Location = new System.Drawing.Point(30, 38);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(48, 16);
+            this.lblName.Size = new System.Drawing.Size(45, 16);
             this.lblName.TabIndex = 3;
-            this.lblName.Text = "Όνομα";
+            this.lblName.Text = "Name";
             // 
             // lblSurname
             // 
@@ -56,7 +56,7 @@
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(62, 16);
             this.lblSurname.TabIndex = 4;
-            this.lblSurname.Text = "Επώνυμο";
+            this.lblSurname.Text = "Surname";
             // 
             // lblDepartment
             // 
@@ -64,9 +64,9 @@
             this.lblDepartment.Location = new System.Drawing.Point(30, 125);
             this.lblDepartment.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDepartment.Name = "lblDepartment";
-            this.lblDepartment.Size = new System.Drawing.Size(45, 16);
+            this.lblDepartment.Size = new System.Drawing.Size(78, 16);
             this.lblDepartment.TabIndex = 5;
-            this.lblDepartment.Text = "Τμήμα";
+            this.lblDepartment.Text = "Department";
             // 
             // btnOk
             // 
@@ -75,7 +75,7 @@
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(100, 28);
             this.btnOk.TabIndex = 6;
-            this.btnOk.Text = "Προσθήκη";
+            this.btnOk.Text = "Add";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
@@ -87,7 +87,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(100, 28);
             this.btnCancel.TabIndex = 7;
-            this.btnCancel.Text = "Ακύρωση";
+            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -134,7 +134,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmAddEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Προσθήκη...";
+            this.Text = "Add Employee...";
             this.Load += new System.EventHandler(this.FrmAddEmployee_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
