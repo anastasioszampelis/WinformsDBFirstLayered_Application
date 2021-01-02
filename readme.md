@@ -1,4 +1,4 @@
-# WinformsDBFirstLayered_Application
+# winforms-layered-application
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
